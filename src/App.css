@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.widgets {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.widget {
+  background-color: white;
+  color: black;
+  padding: 6px 12px
+}
+
+.custom-layout {
+  border: white dashed;
+  width: 820px;
+  min-height: 320px;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.react-grid-item {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
